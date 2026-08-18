@@ -1,0 +1,6 @@
+{
+  "name": "IQD Expense Tracker",
+  "description": "Smart expense tracker for Iraqi Dinar (IQD) with interactive data visualization charts, receipt scanning with AI, category tagging, and monthly PDF report exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

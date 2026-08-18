@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Wallet base shape with shadow and golden accent -->
+    <path
+        android:fillColor="#15FFFFFF"
+        android:pathData="M26,36 C26,32.68 28.68,30 32,30 L76,30 C79.32,30 82,32.68 82,36 L82,72 C82,75.32 79.32,78 76,78 L32,78 C28.68,78 26,75.32 26,72 Z" />
+    
+    <!-- Wallet Card / Body -->
+    <path
+        android:pathData="M28,38 C28,34.68 30.68,32 34,32 L74,32 C77.32,32 80,34.68 80,38 L80,70 C80,73.32 77.32,76 74,76 L34,76 C30.68,76 28,73.32 28,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="45"
+                android:endX="80"
+                android:endY="76"
+                android:startX="28"
+                android:startY="32"
+                android:type="linear">
+                <item android:color="#FFD700" android:offset="0.0" />
+                <item android:color="#FFA000" android:offset="0.7" />
+                <item android:color="#FF8F00" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Wallet Flap / Clip -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,48 L80,48 C81.1,48 82,48.9 82,50 L82,58 C82,59.1 81.1,60 80,60 L60,60 C56.68,60 54,57.32 54,54 C54,50.68 56.68,48 60,48 Z" />
+
+    <!-- Flap Button / Gem -->
+    <path
+        android:fillColor="#004D40"
+        android:pathData="M62,54m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+
+    <!-- Growth trend line on top -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34,64 L44,52 L52,58 L68,40" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,40 L70,40 L70,46 Z" />
+</vector>
